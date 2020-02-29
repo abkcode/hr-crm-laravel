@@ -1,0 +1,49 @@
+
+=========================================================================================================
+
+Learn Laravel with vue
+ - Setup
+ - Routes
+ - Controllers
+ - Views
+ - Blade Templating
+ - Database Migrations and Seeding
+ - Eloquent ORM
+ - Eloquent Relationships
+ - Forms and Validations
+ - Forms uploading files
+ - Forms login
+ - Middleware and auth
+ - Sessions
+ - Email
+
+Work on HR CRM After Learning
+
+tables
+- users
+- jobs
+- employee_edcations
+- employee_experiences
+
+=========================================================================================================
+
+Artisan Commands
+
+php artisan serve
+
+=========================================================================================================
+
+php artisan migrate
+php artisan make:migration student_experiences
+php artisan migrate:reset
+
+php artisan make:seeder UsersTableSeeder
+
+php artisan db:seed
+
+php artisan make:controller ApiController
+
+php artisan make:resource User
+
+=========================================================================================================
+
