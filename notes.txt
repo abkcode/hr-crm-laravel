@@ -22,8 +22,13 @@ Work on HR CRM After Learning
 tables
 - users
 - jobs
+title
+experience
+location
+
 - employee_edcations
 - employee_experiences
+- employee_applied_jobs
 
 =========================================================================================================
 
@@ -36,8 +41,13 @@ npm install
 
 =========================================================================================================
 
+mysql.server start
+
 php artisan migrate
-php artisan make:migration student_experiences
+php artisan make:migration jobs
+php artisan make:migration employee_educations
+php artisan make:migration employee_experiences
+php artisan make:migration employee_applied_jobs
 php artisan migrate:reset
 
 php artisan make:seeder UsersTableSeeder
