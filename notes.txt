@@ -30,6 +30,9 @@ tables
 Artisan Commands
 
 php artisan serve
+composer require laravel/ui --dev
+php artisan ui vue
+npm install
 
 =========================================================================================================
 

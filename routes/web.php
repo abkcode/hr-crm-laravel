@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
+
+Route::get('/jobs', function(){
+    return view('jobs');
+});
+
+Route::get('/employees', function(){
+    return view('employees');
+});
+
+Route::get('/profile', function(){
+    return view('profile');
+});
+
+Route::get('/user', 'UserController@index');
