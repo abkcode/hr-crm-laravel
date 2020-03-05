@@ -35,13 +35,6 @@ location
 Artisan Commands
 
 php artisan serve
-composer require laravel/ui --dev
-php artisan ui vue
-npm install
-
-=========================================================================================================
-
-mysql.server start
 
 php artisan migrate
 php artisan make:migration jobs
@@ -51,6 +44,10 @@ php artisan make:migration employee_applied_jobs
 php artisan migrate:reset
 
 php artisan make:seeder UsersTableSeeder
+php artisan make:seeder JobsTableSeeder
+php artisan make:seeder EmployeeEducationsTableSeeder
+php artisan make:seeder EmployeeExperiencesTableSeeder
+php artisan make:seeder EmployeeAppliedJobsTableSeeder
 
 php artisan db:seed
 
@@ -60,3 +57,4 @@ php artisan make:resource User
 
 =========================================================================================================
 
+mysql.server start
