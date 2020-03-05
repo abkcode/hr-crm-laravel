@@ -12,21 +12,21 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item">
+      <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
         <a class="nav-link" href="{{ url('/') }}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item">
+      <!-- Nav Item - Jobs -->
+      <li class="nav-item {{ Request::is('jobs') ? 'active' : '' }}">
         <a class="nav-link" href="{{ url('/jobs') }}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Jobs</span></a>
       </li>
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item">
+      <!-- Nav Item - Employees -->
+      <li class="nav-item {{ Request::is('employees') ? 'active' : '' }}">
         <a class="nav-link" href="{{ url('/employees') }}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Employees</span></a>
