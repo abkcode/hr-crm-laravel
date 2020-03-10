@@ -1,13 +1,34 @@
 
 =========================================================================================================
 
+Demo Project to learn all technologies
+
+- 2+ level users
+- pagination
+- dynamic form
+- file upload
+- authentication
+- email
+
+=========================================================================================================
+
+TODO
+- work on employee listing with job and experience filter.
+- work on employee edication and experience details pop-up
+- make only one admin.
+- work on auth
+- work on profile page for admin
+- work on profile page for employee
+
+=========================================================================================================
+
 Learn Laravel with vue
- - Setup
- - Routes
- - Controllers
- - Views
- - Blade Templating
- - Database Migrations and Seeding
+|- Setup
+|- Routes
+|- Controllers
+|- Views
+|- Blade Templating
+|- Database Migrations and Seeding
  - Eloquent ORM
  - Eloquent Relationships
  - Forms and Validations
@@ -53,7 +74,9 @@ php artisan db:seed
 
 php artisan make:controller ApiController
 
-php artisan make:resource User
+php artisan make:resource Job
+
+php artisan make:model Job
 
 =========================================================================================================
 
