@@ -10,4 +10,16 @@ class EmployeeExperience extends Model
     {
         return $this->belongsTo('App\User');
     }
+
+    public function getEmployementTypes() {
+        return [
+            1 => 'Full-time',
+            2 => 'Part-time',
+            3 => 'Self-employed',
+            4 => 'Freelance',
+            5 => 'Contract',
+            6 => 'Internship',
+            7 => 'Apprenticeship',
+        ];
+    }
 }
