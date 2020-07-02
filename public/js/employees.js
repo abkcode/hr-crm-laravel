@@ -52,16 +52,6 @@ $(document).ready(function() {
                 }
                 modalHTML += '</table>';
 
-// title: "it8M53qnV4"
-// employment_type: 1
-// company_name: "SpYrs07hk1"
-// location: "JQWPzZjjJQ"
-// currently_working: 1
-// start_month: 3
-// start_year: 2019
-// end_month: 5
-// end_year: 2010
-
                 $(".modal-view-employee").find(".modal-body").html(modalHTML);
                 $(".modal-view-employee").modal("show");
             }

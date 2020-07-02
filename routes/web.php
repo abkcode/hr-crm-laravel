@@ -11,9 +11,11 @@
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('dashboard');
-});
+})->middleware('auth');
 
 Route::get('/jobs', 'JobController@index');
 Route::get('/jobs/create', 'JobController@create');
@@ -27,6 +29,6 @@ Route::get('/employees/view/{id}', 'UserController@view');
 
 Route::get('/profile', function(){
     return view('profile');
-});
+})->middleware('auth');
 
 Route::get('/user', 'UserController@index');
