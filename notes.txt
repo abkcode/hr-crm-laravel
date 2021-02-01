@@ -13,12 +13,14 @@ Demo Project to learn all technologies
 =========================================================================================================
 
 TODO
-- work on employee listing with job and experience filter.
+|- work on employee listing
+- filters on employee listing page job and experience filter.
 - work on employee edication and experience details pop-up
 - make only one admin.
-- work on auth
+|- work on auth
 - work on profile page for admin
 - work on profile page for employee
+- toast message after crud of jobs
 
 =========================================================================================================
 
@@ -78,6 +80,16 @@ php artisan make:resource Job
 
 php artisan make:model Job
 
+php artisan config:cache
+
 =========================================================================================================
 
 mysql.server start
+
+mysql -uroot -ppassword hr_crm
+
+=========================================================================================================
+
+Auth Pending Pages
+- confirm.blade.php
+- verify.blade.php
